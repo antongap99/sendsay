@@ -1,0 +1,38 @@
+.btn {
+    background: #FFFFFF;
+    border: 1px solid #E2E3E5;
+    border-radius: 6px;
+    font-family: 'Inter';
+    cursor: pointer;
+}
+
+
+.number {
+    height: 48px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.operation {
+    height: 48px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.zero {
+    grid-column-end: span 2;
+}
+
+.equel {
+    width: 232px;
+    height: 64px;
+    background: #5D5FEF;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+}

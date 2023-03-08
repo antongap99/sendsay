@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "switch switch"
+        "sidebar1 sidebar2"
+    ;
+    gap: 30px 56px;
+    padding: 38px 80px 86px;
+}
+
+.switchWrapper {
+    width: 100%;
+    grid-area: switch;
+    display: flex;
+    justify-content: end;
+}

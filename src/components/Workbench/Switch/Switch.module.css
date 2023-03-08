@@ -1,0 +1,26 @@
+.container {
+    padding: 1px;
+    width: 243px;
+    height: 38px;
+    background: #F3F4F6;
+    border-radius: 6px;
+    display: flex;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #4D5562;
+    cursor: pointer;
+}
+
+.active {
+    background: #FFFFFF;
+    border: 1px solid #E2E3E5;
+    border-radius: 5px;
+}

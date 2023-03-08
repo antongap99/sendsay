@@ -1,0 +1,42 @@
+.container {
+    width: 243px;
+    height: 448px;
+    grid-area: sidebar2;
+    border: 2px dashed #C4C4C4;
+    border-radius: 6px;
+}
+
+.defualtText {
+    width: 127px;
+    display: flex;
+    flex-direction: column;
+}
+
+.defualtTitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5FEF;
+}
+
+.defualtSubTitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #6B7280;
+}
+
+.defualtContainer {
+    display: flex;
+    justify-content: center;
+    background: #FFF;
+    align-items: center;
+    height: 100%;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
